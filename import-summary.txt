@@ -1,0 +1,82 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* ic_launcher-web.png
+* proguard\
+* proguard\dump.txt
+* proguard\mapping.txt
+* proguard\seeds.txt
+* proguard\usage.txt
+* scrennies\
+* scrennies\6EMCdkhhEu3NPWdyY8XgcZjBqzGDSonsoHLKxVXzVd2JqI4RgcWtD7ruc2P9OvwB9-k.png
+* scrennies\9b_9SWL82CW9l9-9pJtdjXXDY6RdlOq8cvhnauLqKTUsoMHw_2ODJGHdCS3lvNf3mf7J.png
+* scrennies\DSKTaGzHa-SugQyDVhzQCZZPmKTHY7-YmY5p6qPns1sn_c1A7fyULGfVfYMv-e7HfMoV.png
+* scrennies\GPY-5HU2RgP74yt5orpqP7a2to-hU59UgUEa0N48h4YefpnOdsUXMCdicPziGNCPBn8.png
+* scrennies\IwGOW_q4HhRqjUj1DPrktQRVOASq6-RY2upg7baHphLe-wfFoiGAohBTu3M2xlx9D-s.png
+* scrennies\device-2013-04-16-170713.png
+* scrennies\device-2013-04-16-170813.png
+* scrennies\device-2013-04-18-235329.png
+* scrennies\device-2013-04-18-235512.png
+* scrennies\device-2013-06-20-133827.png
+* scrennies\device-2013-06-20-133927.png
+* scrennies\device-2013-06-20-133942.png
+* scrennies\device-2013-06-20-134243.png
+* scrennies\device-2013-06-20-134257.png
+* scrennies\device-2013-06-20-134333.png
+* scrennies\device-2013-06-20-134350.png
+* scrennies\device-2013-06-20-134406.png
+* scrennies\device-2013-06-20-134436.png
+* scrennies\device-2013-06-20-134444.png
+* scrennies\device-2013-06-20-134512.png
+* scrennies\device-2013-06-20-134520.png
+* scrennies\device-2013-06-20-134559.png
+* scrennies\device-2013-06-20-134635.png
+* scrennies\device-2013-06-20-134703.png
+* scrennies\device-2013-06-20-134731.png
+* scrennies\device-2013-06-20-134751.png
+* scrennies\f1RuVDDuUc0NFoMAnRt-dDuwMaFeLOhIajyLjupJf2jVKrDIPawox-BFWeO2UzyztE0.png
+* scrennies\ycHU0ijNp6Lhh_cWddl8f0D9LeLnoqIwk9Vh20oA5jO66YI7T4t0b5U_fmyanKidpg.png
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:18.0.0
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* lint.xml => app\lint.xml
+* proguard-project.txt => app\proguard-project.txt
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

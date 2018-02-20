@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <!-- CABECERA -->
+
+    <LinearLayout
+        android:id="@+id/movimientoCabecera"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#4682B4"
+        android:orientation="horizontal"
+        android:padding="5dp" >
+
+        <!-- Información de la cuenta -->
+
+        <TextView
+            android:id="@+id/lblCuentaElegidaNúmero"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#FFFFFF"
+            android:textIsSelectable="true" />
+
+        <TextView
+            android:id="@+id/lblCuentaElegidaBanco"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#FFFFFF"
+            android:textIsSelectable="true" />
+
+        <TextView
+            android:id="@+id/lblCuentaElegidaSaldo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#FFFFFF"
+            android:textIsSelectable="true"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <!-- Divisor -->
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:background="?android:attr/listDivider" />
+
+    <!-- /Divisor -->
+
+    <LinearLayout
+        android:id="@+id/adminmovimientoCabecera"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#4682B4"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/nulo"
+            android:src="@drawable/plus_sign_simple" />
+
+        <TextView
+            android:id="@+id/lblCrearMovimiento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="@string/crearMovimiento"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+    <!-- Divisor -->
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:background="?android:attr/listDivider" />
+
+    <!-- /Divisor -->
+
+    <LinearLayout
+        android:id="@+id/adminmovimientoSubCabecera"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <!-- Para colorcar avisos o indicar que hay filtros activados -->
+
+    </LinearLayout>
+
+    <!-- /CABECERA -->
+
+
+    <!-- Divisor -->
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:background="?android:attr/listDivider" />
+
+    <!-- /Divisor -->
+
+    <ListView
+        android:id="@+id/lstMovimientos"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="1dp" >
+    </ListView>
+
+</LinearLayout>

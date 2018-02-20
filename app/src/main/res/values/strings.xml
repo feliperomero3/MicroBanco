@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MicroBanco</string>
+    <string name="títuloAcceso">Acceso</string>
+    <string name="títuloCuenta">Crear cuenta</string>
+    <string name="títuloMovimiento">Crear movimiento</string>
+    <string name="menu_settings">Preferencias</string>
+    <string name="contraseña">Contraseña</string>
+    <string name="nuevaContraseña">Nueva contraseña</string>
+    <string name="confContraseña">Confirmar contraseña</string>
+    <string name="logo"></string>
+    <string name="guardar">Guardar</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="número">Número</string>
+    <string name="banco">Banco</string>
+    <string name="tipo">Tipo</string>
+    <string name="saldo">Saldo</string>
+    <string name="saldoInicial">Saldo inicial</string>
+    <string name="fecha">Fecha</string>
+    <string name="cuenta">Cuenta</string>
+    <string name="concepto">Concepto</string>
+    <string name="importe">Importe</string>
+    <string name="administrar">Administrar</string>
+    <string name="títuloAdminCuenta">Cuentas</string>
+    <string name="títuloAdminMovimiento">Movimientos</string>
+    <string name="títuloPreferencia">Preferencias</string>
+    <string name="títuloFiltro">Filtrar</string>
+    <string name="hoy">Hoy</string>
+    <string name="desde">Desde</string>
+    <string name="hasta">Hasta</string>
+    <string name="descFiltro">Indique el intervalo</string>
+    <string name="formatoFecha">dd/mm/aaaa</string>
+    <string name="No.">#</string>
+    <string name="crearCuenta">Crear cuenta</string>
+    <string name="noHayCuentas">No existen cuentas registradas</string>
+    <string name="noHayMovimientos">No existen movimientos registrados para esta cuenta</string>
+    <string name="crearMovimiento">Crear movimiento</string>
+    <string name="mEliminarCuenta">Todos los movimientos asociados a esta cuenta 
+        también se eliminarán.</string>
+    <string name="pEliminarCuenta">¿Eliminar cuenta?</string>
+    <string name="eliminarMovimiento">Eliminar movimiento</string>
+    <string name="si">Si</string>
+    <string name="no">No</string>
+    <string name="mensaje">Mensaje</string>
+    <string name="nulo">\u0020</string>
+    <string name="cmbBancoTítulo">Eliga un banco</string>
+    <string name="cmbTipoTítulo">Eliga un tipo de cuenta</string>
+    <string name="menúCrear">Crear</string>
+    <string name="menúEliminar">Eliminar(*)</string>
+    <string name="menúFiltrar">Filtrar(*)</string>
+    <string name="menúVer">Ver</string>
+    <string name="menúOrdenar">Ordenar(*)</string>
+    <string name="menúPrefs">Preferencias(*)</string>
+    <string name="títuloAdmin">Administrar</string>
+    <string name="añadir">Añadir</string>
+    <string name="eligaAcción">Eliga una acción</string>
+    <string name="pistaNombre">Nombre</string>
+    <string name="verMovimientos">Ver movimientos realizados</string>
+    <string name="filtro0">Ver: todos</string>
+    <string name="filtro1">Ver: hoy</string>
+    <string name="filtro2">Ver: últimos 7 días</string>
+    <string name="filtro3">Ver: últimos 30 días</string>
+    <string name="opinión">Díganos que opina</string>
+    <string name="descripción">El objetivo de MicroBanco es servir como asistente en la realización de una conciliación bancaria.</string>
+    <string name="versión">Versión 1.0 (ALPHA)</string>
+    <string name="acerca">Acerca de</string>
+    <string name="comentarios"><a href="mailto:feliperomero011@gmail.com">Enviar comentarios</a></string>
+    <string name="sitioweb"><a href="http://www.feliperomero.somee.com">Sitio web</a></string>
+    <!-- Styles -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="whitegrey">#FFF2F2F2</color>
+
+    <string-array name="bancos">
+        <item>Banamex</item>
+        <item>Bancomer</item>
+        <item>Banorte</item>
+        <item>HSBC</item>
+        <item>Santander</item>
+        <item>Scotiabank</item>
+    </string-array>
+    <string-array name="tiposCuenta">
+        <item>Ahorro</item>
+        <item>Cheques</item>
+        <item>Inversión</item>
+    </string-array>
+    <string-array name="tiposMovimiento">
+        <item>Depósito</item>
+        <item>Retiro</item>
+    </string-array>
+    <string-array name="conceptos">
+        <item>Sin concepto</item>
+    </string-array>
+    <string-array name="accionesCuenta">
+        <item>Nuevo movimiento</item>
+        <item>Ver movimientos</item>
+        <item>Editar</item>
+        <item>Eliminar</item>
+    </string-array>
+    <string-array name="accionesMovimiento">
+        <item>Eliminar</item>
+    </string-array>
+    <string-array name="temas">
+        <item>Claro</item>
+        <item>Sombra</item>
+    </string-array>
+    <string-array name="filtros">
+        <item>Todos</item>
+        <item>Hoy</item>
+        <item>Últimos 7 días</item>
+        <item>Últimos 30 días</item>
+        <item>Personalizado&#x2026;</item>
+    </string-array>
+
+    <string name="title_activity_filtro">Filtro</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_acerca_acitivity">Acerca de</string>
+
+</resources>

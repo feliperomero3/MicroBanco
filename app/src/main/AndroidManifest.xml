@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="clases.microbanco"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="4"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="clases.microbanco.AccesoActivity"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="stateHidden" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="clases.microbanco.CuentaActivity"
+            android:exported="false"
+            android:label="@string/títuloCuenta"
+            android:windowSoftInputMode="stateHidden" >
+            <intent-filter>
+                <action android:name="clases.microbanco.CuentaActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="clases.microbanco.AdminCuentaActivity"
+            android:exported="false"
+            android:label="@string/títuloAdminCuenta" >
+            <intent-filter>
+                <action android:name="clases.microbanco.AdminCuentaActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="clases.microbanco.MovimientoActivity"
+            android:exported="false"
+            android:label="@string/títuloMovimiento"
+            android:windowSoftInputMode="stateHidden" >
+            <intent-filter>
+                <action android:name="clases.microbanco.MovimientoActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="clases.microbanco.AdminMovimientoActivity"
+            android:exported="false"
+            android:label="@string/títuloAdminMovimiento" >
+            <intent-filter>
+                <action android:name="clases.microbanco.AdminMovimientoActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="clases.microbanco.AddActivity"
+            android:excludeFromRecents="true"
+            android:exported="false"
+            android:theme="@style/ActivityAsDialogWhite"
+            android:label="@string/títuloAdmin" >
+            <intent-filter>
+                <action android:name="clases.microbanco.AddActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="clases.microbanco.AcercaAcitivity"
+            android:label="@string/title_activity_acerca_acitivity" >
+            <intent-filter>
+                <action android:name="clases.microbanco.AcercaActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
