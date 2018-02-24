@@ -12,7 +12,9 @@ Realice las operaciones financieras en su dispositivo Android para llevar un seg
 - Filtro de movimientos por periodo de tiempo determinado.
 - Posibilidad de añadir bancos, tipos de cuenta y conceptos.
 
-TODO: Agregar capturas de pantalla - miniaturas
+![device1](docs/resized/device-2013-06-20-133827.png) ![device2](docs/resized/device-2013-06-20-134731.png) ![device3](docs/resized/device-2013-06-20-134559.png)
+![device3](docs/resized/device-2013-06-20-134257.png) ![device4](docs/resized/device-2013-06-20-133942.png) ![device3](docs/resized/device-2013-06-20-134333.png)
+![device5](docs/resized/device-2013-06-20-134444.png) ![device6](docs/resized/device-2013-06-20-134436.png) ![device3](docs/resized/device-2013-06-20-134751.png)
 
 ## Autor
 
