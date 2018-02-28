@@ -22,7 +22,6 @@ import android.widget.TextView;
 
 public class AcercaAcitivity extends Activity
 {
-    
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {

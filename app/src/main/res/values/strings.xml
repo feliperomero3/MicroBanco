@@ -66,8 +66,8 @@
     <string name="descripción">El objetivo de MicroBanco es servir como asistente en la realización de una conciliación bancaria.</string>
     <string name="versión">Versión 1.0 (ALPHA)</string>
     <string name="acerca">Acerca de</string>
-    <string name="comentarios"><a href="mailto:feliperomero011@gmail.com">Enviar comentarios</a></string>
-    <string name="sitioweb"><a href="http://www.feliperomero.somee.com">Sitio web</a></string>
+    <string name="comentarios"><a href="mailto:feliperomero3@outlook.com">Enviar comentarios</a></string>
+    <string name="sitioweb"><a href="http://feliperomero.mx">Sitio web</a></string>
     <!-- Styles -->
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
