@@ -47,6 +47,7 @@ captures/
 *~
 *.swp
 *.ser
+output.json
 
 # Android Patch
 gen-external-apklibs
