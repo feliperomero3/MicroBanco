@@ -48,7 +48,6 @@ public class AdminCuentaActivity extends Activity
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_admincuenta);
-//        Toast.makeText(this, "onCreate()", Toast.LENGTH_SHORT).show();
         
         final LinearLayout llCrearMovimiento = (LinearLayout)findViewById(R.id.admincuentaCabecera);
         
@@ -167,7 +166,6 @@ public class AdminCuentaActivity extends Activity
                 aviso.setBackgroundColor(Color.parseColor("#808080"));
                 aviso.setTextColor(Color.WHITE);
                 aviso.setPadding(0, 5, 0, 5);
-                // aviso.setGravity(17);
                 aviso.setLayoutParams(new LayoutParams(LayoutParams.MATCH_PARENT,
                         LayoutParams.MATCH_PARENT));
                 aviso.setGravity(Gravity.CENTER);
@@ -351,22 +349,7 @@ public class AdminCuentaActivity extends Activity
         {
             mnu0.setIcon(android.R.drawable.ic_menu_add);
         }
-//        MenuItem mnu1 = menu.add(0, 1, 1, R.string.menúEliminar);
-//        {
-//            mnu1.setIcon(android.R.drawable.ic_menu_delete);
-//        }
-//        MenuItem mnu2 = menu.add(0, 2, 2, R.string.menúOrdenar);
-//        {
-//            mnu2.setIcon(android.R.drawable.ic_menu_sort_by_size);
-//        }
-//        MenuItem mnu3 = menu.add(0, 3, 3, R.string.menúVer);
-//        {
-//            mnu3.setIcon(android.R.drawable.ic_menu_view);
-//        }
-//        MenuItem mnu4 = menu.add(0, 4, 4, R.string.menúPrefs);
-//        {
-//            mnu4.setIcon(android.R.drawable.ic_menu_preferences);
-//        }
+
         MenuItem mnu5 = menu.add(0, 5, 5, R.string.acerca);
         {
             mnu5.setIcon(android.R.drawable.ic_menu_info_details);
@@ -382,17 +365,6 @@ public class AdminCuentaActivity extends Activity
             startActivityForResult(new Intent("clases.microbanco.CuentaActivity"), CÓDIGO_CREAR);
             return true;
         }
-//        // Eliminar
-//        else if (item.getItemId() == 1)
-//        {
-//            
-//            return true;
-//        }
-//        else if (item.getItemId() == 2)
-//        {
-//            
-//            return true;
-//        }
         else if(item.getItemId() == 5)
         {
             startActivity(new Intent("clases.microbanco.AcercaActivity"));

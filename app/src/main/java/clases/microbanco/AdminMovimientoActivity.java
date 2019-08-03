@@ -58,8 +58,7 @@ public class AdminMovimientoActivity extends Activity
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_adminmovimiento);
-//        Toast.makeText(this, "onCreate()", Toast.LENGTH_SHORT).show();
-        
+
         final LinearLayout llCrearMovimiento = (LinearLayout)findViewById(R.id.adminmovimientoCabecera);
         llAviso = (LinearLayout)findViewById(R.id.adminmovimientoSubCabecera);
         
@@ -130,7 +129,6 @@ public class AdminMovimientoActivity extends Activity
     {
         super.onResume();
         
-//        Toast.makeText(this, "onResume()", Toast.LENGTH_SHORT).show();
     }
     
     // Muestra avisos al usuario como la inexistencia de movimientos
@@ -139,16 +137,12 @@ public class AdminMovimientoActivity extends Activity
     {
         if (llAviso.indexOfChild(aviso) != -1)
         {
-            // llAviso.removeView(aviso);
-            // llAviso.removeAllViews();
             // Sólo cambiar el texto
             aviso.setText(texto);
-            // Toast.makeText(this, "Cambio de texto aviso", Toast.LENGTH_SHORT).show();
-            
+
         }
         else
         {
-            // Toast.makeText(this, "Nuevo aviso", Toast.LENGTH_SHORT).show();
             // No existen movimientos. Mostrar aviso.
             aviso = new TextView(this);
             aviso.setText(texto);
@@ -466,7 +460,6 @@ public class AdminMovimientoActivity extends Activity
         builder.setTitle(R.string.verMovimientos);
         
         // Obtener el filtro seleccionado anteriormente
-        // prefs.edit().remove("filtroMovimiento").commit();
         prefs = getSharedPreferences("clases.microbanco.MicroBanco", MODE_PRIVATE);
         int filtroElegido = prefs.getInt(filtroMovimiento, 0);
         
@@ -595,22 +588,10 @@ public class AdminMovimientoActivity extends Activity
         {
             mnu0.setIcon(android.R.drawable.ic_menu_add);
         }
-        // MenuItem mnu1 = menu.add(0, 1, 1, R.string.menúEliminar);
-        // {
-        // mnu1.setIcon(android.R.drawable.ic_menu_delete);
-        // }
-        // MenuItem mnu2 = menu.add(0, 2, 2, R.string.menúOrdenar);
-        // {
-        // mnu2.setIcon(android.R.drawable.ic_menu_sort_by_size);
-        // }
         MenuItem mnu3 = menu.add(0, 3, 3, R.string.menúVer);
         {
             mnu3.setIcon(android.R.drawable.ic_menu_view);
         }
-        // MenuItem mnu4 = menu.add(0, 4, 4, R.string.menúPrefs);
-        // {
-        // mnu4.setIcon(android.R.drawable.ic_menu_preferences);
-        // }
         MenuItem mnu5 = menu.add(0, 5, 5, R.string.acerca);
         {
             mnu5.setIcon(android.R.drawable.ic_menu_info_details);
@@ -628,14 +609,6 @@ public class AdminMovimientoActivity extends Activity
             i.putExtra("Saldo", (String)lblSaldoCuenta.getText());
             startActivityForResult(i, CÓDIGO_CREAR);
         }
-        // else if (item.getItemId() == 1)
-        // {
-        //
-        // }
-        // else if (item.getItemId() == 2)
-        // {
-        //
-        // }
         else if (item.getItemId() == 3)
         {
             MostrarListaFiltros();

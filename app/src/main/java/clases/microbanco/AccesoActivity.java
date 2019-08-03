@@ -14,14 +14,11 @@
 
 package clases.microbanco;
 
-//import java.io.File;
-
 import android.app.Activity;
 import android.content.ContentValues;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
-//import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
@@ -32,7 +29,6 @@ import android.widget.Toast;
 public class AccesoActivity extends Activity
 {
     private SharedPreferences prefs;
-//    private final String NOMBRE_BD = "Banco";
     private EditText txtContraseña;
     private TextView lblContraseña;
     private TextView lblConfContraseña;
@@ -43,23 +39,16 @@ public class AccesoActivity extends Activity
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_acceso);
-//        Toast.makeText(this, "onCreate()", Toast.LENGTH_SHORT).show();
-        
+
         prefs = getSharedPreferences("clases.microbanco.MicroBanco", MODE_PRIVATE);
-        //prefs.edit().remove("primerLanzamiento").commit();
-        
+
         lblContraseña = (TextView)findViewById(R.id.lblContraseña);
         txtContraseña = (EditText)findViewById(R.id.txtContraseña);
         lblConfContraseña = (TextView)findViewById(R.id.lblConfContraseña);
         txtConfContraseña = (EditText)findViewById(R.id.txtConfContraseña);
         Button btnAceptar = (Button)findViewById(R.id.btnAceptar);
         Button btnCancelar = (Button)findViewById(R.id.btnCancelar);
-        
-//        File dbFile = getDatabasePath(NOMBRE_BD);
-//        Log.i("Nombre bd", dbFile.getAbsolutePath());
-        
-//        startActivity(new Intent("clases.microbanco.AdminCuentaActivity"));
-        
+
         btnAceptar.setOnClickListener(new OnClickListener()
         {
             @Override
@@ -163,6 +152,5 @@ public class AccesoActivity extends Activity
             lblConfContraseña.setVisibility(View.INVISIBLE);
             txtConfContraseña.setVisibility(View.INVISIBLE);  
         }
-//        Toast.makeText(this, "onResume()", Toast.LENGTH_SHORT).show();
     }
 }
