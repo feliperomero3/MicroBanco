@@ -4,6 +4,8 @@ MicroBanco es una aplicación para teléfonos inteligentes (Smartphones) con el 
 
 Realice las operaciones financieras en su dispositivo Android para llevar un seguimiento del estado de sus cuentas bancarias.
 
+[MicroBanco en Google Play](https://play.google.com/store/apps/details?id=clases.microbanco)
+
 ## Características principales
 
 - Inicio de sesión protegido con contraseña.
